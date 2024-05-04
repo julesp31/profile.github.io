@@ -1,0 +1,52 @@
+body {
+  font-family: Montserrat;
+  background-image: url("https://steamuserimages-a.akamaihd.net/ugc/792008333427823093/9D24A13B19934AB0FD14228F74CBD6775984AC2F/");
+  background-size: cover;
+  color: #ffffff; /* White text color */
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.7); /* 70% opacity) */
+}
+
+.section {
+  border: 2px solid #ffffff; /* White border around sections */
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 20px rgba(255, 255, 255, 1); /* Add shadow with white color */
+  border-radius: 50%; /* Make sections circular */
+}
+
+h1, h3, a, p {
+  font-family: Playfair;
+  color: #ffffff; /* White text color */
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 1); /* Add shadow with 1 opacity */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  list-style-type: none; /* Removes bullet points */
+  padding: 0; /* Removes default padding */
+}
+
+ul li {
+  margin-bottom: 10px; /* Adds some spacing between list items */
+}
+
+#social-links a {
+  color: #ffffff; /* White text color */
+  text-decoration: none; /* Remove underline */
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 1); /* Add shadow with 1 opacity */
+}
+
+#social-links a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+img {
+  border-radius: 50%; /* Make image circular */
+  box-shadow: 0px 0px 20px rgba(255, 255, 255, 1); /* Add shadow with white color to the image */
+}
